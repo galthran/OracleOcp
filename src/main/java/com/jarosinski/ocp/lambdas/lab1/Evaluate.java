@@ -1,4 +1,5 @@
 package com.jarosinski.ocp.lambdas.lab1;
 
-public class Evaluate {
+public interface Evaluate<T> {
+    boolean isNegative(T t);
 }

@@ -1,4 +1,6 @@
 package com.jarosinski.ocp.lambdas;
 
-public interface Evaluate {
+@FunctionalInterface
+public interface Evaluate<T> {
+    boolean isNegative(T t);
 }
